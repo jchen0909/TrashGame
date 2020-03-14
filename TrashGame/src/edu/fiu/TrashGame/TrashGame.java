@@ -23,6 +23,29 @@ public class TrashGame {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		/**
+		 * call method in each class
+		 */
+		
+		Hand myhand = new Hand();
+		myhand.pickcard();
+		myhand.throwcard();
+		myhand.positioncard();
+		myhand.throwcard();
+		myhand.replacecard();
+		myhand.discard();
+		myhand.faceup();
+		myhand.facedown();
+		
+		Deck myDeck = new Deck();
+		myDeck.shuffle();
+		
+		Player myPlayer = new Player();
+		myPlayer.makeMove();
+		
+		Trash myTrash = new Trash();
+		myTrash.gettopcard();
+		
 	}
 
 }
