@@ -24,7 +24,7 @@ public class Deck {
 		int rand_int = rand.nextInt(13); 
 		 
 		
-		System.out.println("The Picked number is: " +rand_int);
+		System.out.println("The Random number is: " +rand_int);
 	    
 		System.out.println("The random order for the card is: ");
 	}

@@ -15,7 +15,7 @@ public class Hand {
 		 /**
 		  * pick a card from the deck and return the number
 		  */ 	
-		 
+		 System.out.println("The Picked number is: " );
 	
 	 }
 	 
