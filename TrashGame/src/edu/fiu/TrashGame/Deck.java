@@ -25,7 +25,6 @@ public class Deck {
 		 
 		
 		System.out.println("The Random number is: " +rand_int);
-	    
-		System.out.println("The random order for the card is: ");
+	  
 	}
 }
