@@ -3,6 +3,8 @@
  */
 package edu.fiu.TrashGame;
 
+import java.util.Random;
+
 /**
  * @author simon
  * This is a deck class that have 52 cards
@@ -14,7 +16,16 @@ public class Deck {
 	public void shuffle() {
 		
 		/**
-		 * create a shuffle method to random order the 52 card
+		 * create a shuffle method to random order 13 card and return the random number list
 		 */
+		
+		
+		Random rand = new Random(); 
+		int rand_int = rand.nextInt(13); 
+		 
+		
+		System.out.println("The Picked number is: " +rand_int);
+	    
+		System.out.println("The random order for the card is: ");
 	}
 }

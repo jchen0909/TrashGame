@@ -16,5 +16,6 @@ public class Trash {
 		/**
 		 * create a gettopcard method to return the top card number.
 		 */
+		System.out.println("The number for the top card is: ");
 	}
 }

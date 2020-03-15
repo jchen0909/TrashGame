@@ -3,6 +3,7 @@
  */
 package edu.fiu.TrashGame;
 
+
 /**
  * @author simon
  *
@@ -22,23 +23,18 @@ public class TrashGame {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		/**
-		 * call method in each class
+		 * call the method in each class and print out the solution in each method. 
 		 */
 		
 		Hand myhand = new Hand();
 		myhand.pickcard();
 		myhand.throwcard();
-		myhand.positioncard();
-		myhand.throwcard();
-		myhand.replacecard();
-		myhand.discard();
-		myhand.faceup();
-		myhand.facedown();
-		
+				
 		Deck myDeck = new Deck();
 		myDeck.shuffle();
+		
+		System.out.println(myDeck);
 		
 		Player myPlayer = new Player();
 		myPlayer.makeMove();

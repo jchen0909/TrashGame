@@ -3,6 +3,7 @@
  */
 package edu.fiu.TrashGame;
 
+
 /**
  * @author simon
  *This is a Hand class representing all the action to the card
@@ -12,42 +13,19 @@ public class Hand {
 	 
 	 public void pickcard() {
 		 /**
-		  * pick a card from the deck
-		  */
+		  * pick a card from the deck and return the number
+		  */ 	
+		 
+	
 	 }
 	 
 	 public void throwcard() {
 		 /**
-		  * throw the card to the trash
+		  * throw the card to the trash and return the number
 		  */
+		 System.out.println("The throw number is: ");
 	 }
 	 
-	 public void replacecard() {
-		 /**
-		  * replace the card with the care picked from deck
-		  */
-	 }
-	 public void positioncard() {
-		 /**
-		  * pick a card from the deck and put the card in right position
-		  */
-	 }
-	 
-	 public void discard() {
-		 /**
-		  * discard the card to the trash
-		  */
-	 }
-	 
-	 public void faceup() {
-		 /**
-		  * pick a card from deck and face up in hand
-		  */
-	 }
-	 
-	 public void facedown() {
-		 /** 
-		  * face down the card at beginning of the game
-		  */
-	 }
+	
+	
 }
